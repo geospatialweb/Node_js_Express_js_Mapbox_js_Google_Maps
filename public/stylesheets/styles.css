@@ -1,0 +1,111 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+@import url(http://fonts.googleapis.com/css?family=Orbitron:700);
+
+body {
+	background: url(/images/darkstone.png) repeat fixed;
+	font-family: 'Roboto', sans-serif;
+	margin: 0 auto;
+	width: 1065px;
+}
+
+	#headerContainer {
+		background-color: rgb(140,130,120);
+		border-radius: 0.15em;
+		font-family: 'Orbitron', sans-serif;
+        height: 2.5em;
+		margin: 1.5% 0 0 0;
+	}
+
+		.logo {
+			float: left;
+			height: 55px;
+			padding: 0.5% 0 0 0.5%;
+			width: 55px;
+		}
+
+		#header {
+			float: left;
+			font-size: 1.4em;
+			padding: 1% 0 0 0.6%;
+		}
+
+			.char15 {
+				letter-spacing: -0.25em;
+			}
+
+			.char17 {
+				letter-spacing: -0.09em;
+			}
+
+		.subHeader {
+			color: rgb(255,0,100);
+			font-size: 0.95em;
+			padding: 1% 0 0 0;
+			text-align: center;
+		}
+
+	#contentContainer {
+		margin: 0 0 0 6.5%;
+	}
+
+		#textContainer_1 {
+			background-color: rgb(180,170,160);
+			border-radius: 0.2em;
+			color: transparent;
+			font-size: 0.8em;
+            height: 10em;
+			margin: 3% 0 0 0;
+		}
+
+        #mapbox {
+            margin: 1% 0 0 0;
+        }
+
+		#textContainer_2 {
+			background-color: rgb(180,170,160);
+			border-radius: 0.2em;
+			color: transparent;
+			font-size: 0.8em;
+            height: 10em;
+			margin: 0.5 0 0 0;
+		}
+
+        #google_maps {
+            margin: 0.1 0 0 0;
+        }
+
+		#textContainer_3 {
+			background-color: rgb(180,170,160);
+			border-radius: 0.2em;
+			color: transparent;
+			font-size: 0.8em;
+            height: 10em;
+			margin: 0.5% 0 0 0;
+		}
+
+        #graphicsContainer_1 {
+            background-color: rgb(180,170,160);
+            border-radius: 0.2em;
+            color: transparent;
+            font-size: 0.8em;
+            height: 10em;
+            margin: 0.5% 0 0 0;
+        }
+
+		#textContainer_4 {
+			background-color: rgb(180,170,160);
+			border-radius: 0.2em;
+			color: transparent;
+			font-size: 0.8em;
+            height: 10em;
+			margin: 0.5% 0 0 0;
+		}
+
+	#footerContainer {
+		background-color: rgb(140,130,120);
+		border-radius: 0.2em;
+		color: transparent;
+		font-size: 0.8em;
+        height: 10em;
+		margin: 1% 0 1.5% 6.5%;
+	}

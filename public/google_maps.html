@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+        <link rel='stylesheet' href='/stylesheets/google_maps.css' media='screen'>
+        <script src='//code.jquery.com/jquery-1.11.0.min.js'></script>
+        <script>
+            $(document).ready(function() {
+                load_google('mapContainer');
+            });
+        </script>
+	</head>
+	<body>
+		<div id='mapContainer'></div>
+        <section id='legend'>
+            <div id='trailName'>Frontenac Arch Biosphere</div>
+            <form id='form'>
+                <div id='officeMarker'>
+                    <img src='/images/office.png' alt='Office Marker'>
+                </div>
+                <div id='placeNameMarker'>
+                    <img src='/images/placename.png' alt='Placename Marker'>
+                </div>
+                <div id='trailMarker'>
+                    <img src='/images/trail.png' alt='Trail Marker'>
+                </div>
+                <div id='officeText'>
+                    FABR Office
+                </div>
+                <div id='placeNameText'>
+                    Points of Interest
+                </div>
+                <div id='trailText'>
+                    Trailheads
+                </div>
+                <select id="trailList" onchange="displayTrail(trailList.selectedIndex)">
+                    <option>Select Trail</option>
+                    <option>Blue Mountain</option>
+                    <option>Charleston Lake</option>
+                    <option>Lemoine Point Conservation</option>
+                    <option>Lyn Valley Conservation</option>
+                    <option>Mac Johnson Wildlife Area</option>
+                    <option>Seeley's Bay Fitness Trails</option>
+                </select>
+                <div id='regionLayer'>
+                    <span><input type='checkbox' onclick='displayLayer("regionLayer", this)'>&nbsp; FABR Boundary</span>
+                </div>
+                <div id='officeLayer'>
+                    <span><input type='checkbox' onclick='displayLayer("officeLayer", this)'>&nbsp; FABR Office</span>
+                </div>
+                <div id='placeNameLayer'>
+                    <span><input type='checkbox' onclick='displayLayer("placeNameLayer", this)'>&nbsp; Points of Interest</span>
+                </div>
+                <div id='trailLayer'>
+                    <span><input type='checkbox' onclick='displayLayer("trailLayer", this)' checked='true'>&nbsp; Trails</span>
+                </div>
+                <input id='button' type='button' value='Reset' onclick='location.reload(true)'>
+            </form>
+        </section>
+	</body>
+    <script src='/javascripts/google_maps.js'></script>
+    <script src='//maps.googleapis.com/maps/api/js?&sensor=false'></script>
+</html>

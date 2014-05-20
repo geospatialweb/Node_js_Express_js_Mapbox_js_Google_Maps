@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+        <link rel='stylesheet' href='/stylesheets/mapbox.css' media='screen'>
+        <link rel='stylesheet' href='//api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' media='screen'>
+        <script src='//code.jquery.com/jquery-1.11.0.min.js'></script>
+        <script>
+            $(document).ready(function() {
+                load_mapBox('mapContainer');
+
+                $('#regionLayer').click(function() {
+                    if (map.hasLayer(region)) map.removeLayer(region);
+                    else map.addLayer(region);
+                });
+
+                $('#officeLayer').click(function() {
+                    if (map.hasLayer(office)) map.removeLayer(office);
+                    else map.addLayer(office);
+                });
+
+                $('#placeNameLayer').click(function() {
+                    if (map.hasLayer(placeName)) map.removeLayer(placeName);
+                    else map.addLayer(placeName);
+                });
+
+                $('#trailLayer').click(function() {
+                    if (map.hasLayer(trail)) map.removeLayer(trail);
+                    else map.addLayer(trail);
+                });
+
+                $('#resetMap').click(function() {
+                    location.reload(true);
+                });
+            });
+        </script>
+	</head>
+	<body>
+        <div id='mapContainer'></div>
+        <div id='latlng'></div>
+        <ul id='map-ui'>
+            <li id='regionLayer'><a href='#'>Region</a></li>
+            <li id='officeLayer'><a href='#'>Office</a></li>
+            <li id='placeNameLayer'><a href='#'>Places</a></li>
+            <li id='trailLayer'><a href='#'>Trails</a></li>
+            <li id='resetMap'><a href='#'>Reset Map</a></li>
+            <li id='fullScreen'><a href='#' target='_blank'>Full Screen</a></li>
+        </ul>
+        <div id='regionMarker'>
+            <img src='/images/polygon.png' height='18' width='18'>
+        </div>
+        <div id='officeMarker'>
+            <img src='/images/office.png' height='20' width='18'>
+        </div>
+        <div id='placeNameMarker'>
+            <img src='/images/placename.png' height='20' width='18'>
+        </div>
+        <div id='trailMarker'>
+            <img src='/images/trail.png' height='20' width='18'>
+        </div>
+        <select id='trailList' onchange='displayTrail(trailList.selectedIndex)'>
+            <option>Select Trail</option>
+            <option>Blue Mountain</option>
+            <option>Charleston Lake</option>
+            <option>Lemoine Point Conservation</option>
+            <option>Lyn Valley Conservation</option>
+            <option>Mac Johnson Wildlife Area</option>
+            <option>Seeley's Bay Fitness Trails</option>
+        </select>
+       </body>
+    <script src='/javascripts/mapbox.js'></script>
+    <script src='//api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+</html>

@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>placename.kml</name>
+    <Folder>
+      <name>Place Names</name>
+      <Placemark id="1">
+        <name>Brockville</name>
+        <description>Known as the "City of the 1000 Islands" and Ontario's first incorporated self-governing town in 1832. Lots of "old" money here! Interesting "underground railroad" history to explore...></description>
+        <Point>
+          <coordinates>-75.684201,44.589699</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="2">
+        <name>Gananoque</name>
+        <description>Seemingly, Gananoque has the highest teenage pregnancy rate in Canada. I wonder why? Good thing I didn't spend my teenage years here...></description>
+        <Point>
+          <coordinates>-76.162479,44.330009</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="3">
+        <name>Kingston</name>
+        <description>Home to Queen's University, St. Lawrence College and Royal Military College. Only place in Canada where beer consumption actually goes DOWN in the summer with the students partying elsewhere. Indeed, quite a feat!></description>
+        <Point>
+          <coordinates>-76.494277,44.225560</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="4">
+        <name>Seeley's Bay</name>
+        <description>Part of the Rideau Heritage Route on the Rideau Canal. Wonderful charm and facilities to enjoy during the summer months when it is not raining every weekend...></description>
+        <Point>
+          <coordinates>-76.233410,44.479690</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="5">
+        <name>Sharbot Lake</name>
+        <description>Located in the Land O' Lakes Tourist Region, Sharbot Lake was once an important stop on the Kingston and Pembroke Railway. The rail bed now constitutes a multi-use section of the Trans-Canada Trail...></description>
+        <Point>
+          <coordinates>-76.687023,44.772732</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="6">
+        <name>Sydenham</name>
+        <description>The abandoned CPR/Grand Trunk Railway right-of-way is now part of the Trans-Canada Trail. &lt;br&gt;&lt;br&gt; Great ice cream parlor after a rewarding day hiking the Frontenac Challenge during the autumn months... &lt;br&gt;&lt;br&gt; Trousdale's, Canada's oldest general store, has been located here for five generations!></description>
+        <Point>
+          <coordinates>-76.596745,44.411096</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="7">
+        <name>Verona</name>
+        <description>A recreational paradise! Ideal place to visit, raise a family, or retire...></description>
+        <Point>
+          <coordinates>-76.693935,44.480988</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="8">
+        <name>Westport</name>
+        <description>About 1/3 of the way to Ottawa from Kingston on the winding Rideau Trail. Not quite as affluent as Westport, Connecticut...></description>
+        <Point>
+          <coordinates>-76.398313,44.675168</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="9">
+        <name>Marble Rock</name>
+        <description>I dearly want to hike this spectacular trail this year!</description>
+        <Point>
+          <coordinates>-76.150647,44.393997</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="10">
+        <name>Holland</name>
+        <description>Sorry, wrong Holland. No cafes here serving up a pot and hashish menu!></description>
+        <Point>
+          <coordinates>-75.947522,44.414892</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="11">
+        <name>Inverary</name>
+        <description>Check out the Inverary Golf and Country Club. Less frustrating than the links courses in Scotland...></description>
+        <Point>
+          <coordinates>-76.473035,44.388844</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="12">
+        <name>Hayes Corner</name>
+        <description>Have you ever wondered how places get their unique names? &lt;br&gt;&lt;br&gt; Place names (toponyms) have from the beginning of time been assigned to cultural and natural features on the landscape including cities, towns, rivers, lakes and islands. &lt;br&gt;&lt;br&gt; Place names are not just labels on maps and signs, but vital communication tools that reflect patterns of settlement, exploration, migration, heritage, culture and natural resources that may otherwise be overlooked by residents, visitors, and future generations.></description>
+        <Point>
+          <coordinates>-75.920904,44.592884</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="13">
+        <name>Bolingbroke</name>
+        <description>Bowling for Dollars!></description>
+        <Point>
+          <coordinates>-76.519139,44.759089</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="14">
+        <name>Bedford</name>
+        <description>Built solid on granite bedrock!></description>
+        <Point>
+          <coordinates>-76.565216,44.623057</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="15">
+        <name>Sand Bay Corner</name>
+        <description>Nothing better than the feeling of a sandy bottom and warm water!></description>
+        <Point>
+          <coordinates>-76.081310,44.460719</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="16">
+        <name>South Frontenac</name>
+        <description>You guessed it! Located just below the southern expanse of the majestic Frontenac Provincial Park in the heart of Frontenac County. Close to the Frontenac Challenge trailheads. Sounds like a monopoly to me!></description>
+        <Point>
+          <coordinates>-76.516628,44.517936</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="17">
+        <name>Piccadilly</name>
+        <description>Escape the circus of living in the big city...></description>
+        <Point>
+          <coordinates>-76.690350,44.524039</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="18">
+        <name>Rockport</name>
+        <description>Close your eyes for a moment and you will pass right through town! "Must See" tourist venue with stunning scenery viewable from both land and water...></description>
+        <Point>
+          <coordinates>-75.936261,44.380454</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="19">
+        <name>Harrowsmith</name>
+        <description>Home to the magazine of the same name. Ahead of their time. Strong green, ecological, biodiversity and local sustainability roots. No, High Times magazine was not published here!></description>
+        <Point>
+          <coordinates>-76.665418,44.404445</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="20">
+        <name>Kingston Mills</name>
+        <description>Start of the historic Rideau Canal. The locks where a tragic car drowning took place. First mass murder in the history of Kingston sadly...></description>
+        <Point>
+          <coordinates>-76.444675,44.292735</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="21">
+        <name>Thousand Islands Bridge</name>
+        <description>Magnificant view in all directions! Passport needed to cross the border...></description>
+        <Point>
+          <coordinates>-75.982182,44.363591</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="22">
+        <name>Florida</name>
+        <description>Sorry, wrong Florida! But no worry of hurricanes here...></description>
+        <Point>
+          <coordinates>-76.681676,44.333757</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="23">
+        <name>Newboro</name>
+        <description>Founded during the construction of the Rideau Canal and hosts the annual Rideau Lakes Cup Dog Sled Races. &lt;br&gt;&lt;br&gt; Shorter to spell than Newborough. Helps save on toner!></description>
+        <Point>
+          <coordinates>-76.318122,44.651617</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="24">
+        <name>Landon Bay</name>
+        <description>Tranquility and a sense of spiritual presence are experienced as one walks the trails and meadows. &lt;br&gt;&lt;br&gt; <b> I would love to live here someday...</b>></description>
+        <Point>
+          <coordinates>-76.064780,44.353725</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="25">
+        <name>Howe Island</name>
+        <description>Two short ferry services connect to the mainland across the Bateau Channel at either end. Take your pick! Kingston to the west and Gananoque to the east. Dianne and Ashly both live on this island...></description>
+        <Point>
+          <coordinates>-76.263503,44.277575</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="26">
+        <name>Wolfe Island</name>
+        <description>Lots of steady wind for the turbines! Accessible by ferry from Kingston and Cape Vincent, NY. Largest of the Thousand Islands. Venerable Don Cherry has a summer cottage here...></description>
+        <Point>
+          <coordinates>-76.354505,44.174915</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="27">
+        <name>Missouri</name>
+        <description>The "SHOW ME" town!></description>
+        <Point>
+          <coordinates>-76.477944,44.418963</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="28">
+        <name>Perth Road</name>
+        <description>Small town on the road to Perth!></description>
+        <Point>
+          <coordinates>-76.491977,44.466287</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="29">
+        <name>Thousand Islands</name>
+        <description>Don Ross (FABR Executive Director) published an informative book called "Discovering the Thousand Islands". Great read with lots of pictures! Don also owns cool antique mahogany boats...></description>
+        <Point>
+          <coordinates>-75.979880,44.354685</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="30">
+        <name>Athens</name>
+        <description>Famous for a series of large outdoor murals depicting historical local life, painted on the sides of various buildings. Delicious Souflaki and Tzatziki sauce!></description>
+        <Point>
+          <coordinates>-75.952157,44.626067</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="31">
+        <name>Crosby</name>
+        <description>Sorry, not the hometown of "Sid the Kid"...></description>
+        <Point>
+          <coordinates>-76.256726,44.654463</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="32">
+        <name>Mallorytown</name>
+        <description>Local area is a bird watching haven! Duracell batteries in high demand always...></description>
+        <Point>
+          <coordinates>-75.879321,44.477661</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="33">
+        <name>Grenadier Island</name>
+        <description>The Grenadier Island Country Club, founded in 1927, is one of the oldest island golf courses in Canada!></description>
+        <Point>
+          <coordinates>-75.873316,44.406851</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="34">
+        <name>Battersea</name>
+        <description>Located on the southern shore of Loughborough Lake. Dan Ackroyd has a cottage on this lake famous for its many small islands and natural beauty...></description>
+        <Point>
+          <coordinates>-76.383998,44.432012</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="35">
+        <name>Kingston Penitentiary</name>
+        <description>KP officially opened on June 1, 1835 and was one of the oldest prisons in continuous use in the world until it officially closed on September 30, 2013. KP is designated a National Historic Site and is only one of nine federal prisons in the Kingston area. Amazing job security for prison guards...></description>
+        <Point>
+          <coordinates>-76.513459,44.219776</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="36">
+        <name>Charleston</name>
+        <description>Great place to go dancing and reminisce along the shores of Charleston Lake...></description>
+        <Point>
+          <coordinates>-75.997920,44.575354</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="37">
+        <name>California</name>
+        <description>Sorry, wrong California! But no traffic conjestion or air pollution here...></description>
+        <Point>
+          <coordinates>-76.264056,44.543202</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="38">
+        <name>Lansdowne</name>
+        <description>Quaint community to live within the Biosphere...></description>
+        <Point>
+          <coordinates>-76.018099,44.405991</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="39">
+        <name>Lake Opinicon</name>
+        <description>Fisherman's earthly Heaven and heavenly Earth!></description>
+        <Point>
+          <coordinates>-76.370520,44.533378</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="40">
+        <name>Delta</name>
+        <description>Delta Y / Delta X. Sir Issac Newton's inspiration...>
+        <Point>
+          <coordinates>-76.123528,44.611633</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="41">
+        <name>Glendower</name>
+        <description>About half way between Piccadilly and Bedford for a restful sleepover...></description>
+        <Point>
+          <coordinates>-76.630209,44.564217</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="42">
+        <name>Black Rapids</name>
+        <description>One of the many locks in the Rideau Canal system. A dam was built adjacent to the lock to raise the water level by 6 feet (1.8m). When the dam was completed, it was soon found that with the river flowing over it during spring flood, erosion of the bedrock on the downstream side of the dam threatened to undermine it. &lt;br&gt;&lt;br&gt;  Sounds to me like they could have used a GIS!></description>
+        <Point>
+          <coordinates>-76.089451,44.509962</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="43">
+        <name>Bedford Mills</name>
+        <description>Mill town (much like the others in the surrounding area) supplied lumber for the construction of the Rideau Canal.></description>
+        <Point>
+          <coordinates>-76.404768,44.602361</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="44">
+        <name>Front of Yonge</name>
+        <description>Sorry, the Hockey Hall of Fame is in downtown Toronto at Front and Yonge! Front of Yonge is a local Township...></description>
+        <Point>
+          <coordinates>-75.877363,44.514345</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark id="45">
+        <name>Napanee</name>
+        <description>Napanee is the home of "La Pizzeria", made famous by Avril Lavinge's declaration that her "favourite pizza" is served there. &lt;br&gt;&lt;br&gt; My favourite biker chick Audrey calls Napanee home, but like many others in surrounding areas, commutes daily to Kingston to earn a living.></description>
+        <Point>
+          <coordinates>-76.951717,44.249381</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

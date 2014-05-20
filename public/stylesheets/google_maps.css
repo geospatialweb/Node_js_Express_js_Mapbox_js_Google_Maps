@@ -1,0 +1,123 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	background: rgb(160,150,140);
+	font-family: 'Roboto', sans-serif;
+}
+
+    #mapContainer {
+        position: absolute;
+        height: 450px;
+        width: 700px;
+        left: 0px;
+        top: 0px;
+    }
+
+    #legend {
+        border-left: 1px solid rgb(0,0,0);
+        position: absolute;
+        height: 450px;
+        left: 700px;
+        top: 0px;
+    }
+
+        #trailName {
+            border-bottom: 1px dotted rgb(40,30,20);
+            color: rgb(200,0,100);
+            font-size: 1.1em;
+            padding: 0 0 2px 0;
+            text-align: center;
+            position: absolute;
+            width: 250px;
+            left: 25px;
+            top: 15px;
+        }
+
+        #form {
+            color: rgb(40,30,20);
+            position: absolute;
+            height: 420px;
+            width: 250px;
+            left: 25px;
+            top: 30px;
+        }
+
+        #officeMarker {
+            position: absolute;
+            left: 25px;
+            top: 35px;
+        }
+
+        #placeNameMarker {
+            position: absolute;
+            left: 25px;
+            top: 70px;
+        }
+
+        #trailMarker {
+            border-bottom: 1px dotted rgb(40,30,20);
+            padding: 0 0 15px 0;
+            position: absolute;
+            width: 225px;
+            left: 25px;
+            top: 105px;
+        }
+
+        #officeText {
+            position: absolute;
+            left: 60px;
+            top: 35px;
+        }
+
+        #placeNameText {
+            position: absolute;
+            left: 60px;
+            top: 70px;
+        }
+
+        #trailText {
+            position: absolute;
+            left: 60px;
+            top: 105px;
+        }
+
+        #trailList {
+            position: absolute;
+            left: 40px;
+            top: 165px;
+        }
+
+        #regionLayer {
+            border-top: 1px dotted rgb(40,30,20);
+            padding: 20px 0 0 0;
+            position: absolute;
+            width: 225px;
+            left: 25px;
+            top: 200px;
+        }
+
+        #officeLayer {
+            position: absolute;
+            left: 25px;
+            top: 255px;
+        }
+
+        #placeNameLayer {
+            position: absolute;
+            left: 25px;
+            top: 290px;
+        }
+
+        #trailLayer {
+            position: absolute;
+            left: 25px;
+            top: 325px;
+        }
+
+        #button {
+            text-align: center;
+            position: absolute;
+            width: 65px;
+            left: 93px;
+            top: 375px;
+        }

@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+    #mapContainer {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0px;
+        top: 0px;
+    }
+
+    #latlng {
+        color: rgb(200, 0, 100);
+        font-size: 0.7em;
+        position: absolute;
+        height: 10px;
+        width: 175px;
+        left: 10px;
+        bottom: 10px;
+    }
+
+    #map-ui {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 10px;
+        top: 75px;
+    }
+
+    #map-ui a {
+        background: rgb(160,150,140);
+        border: 1px solid #BBB;
+        border-bottom-width: 0;
+        color: #3C4E5A;
+        display: block;
+        font-size: 0.95em;
+        padding: 5px 0 5px 40px;
+        text-decoration: none;
+        width: 95px;
+    }
+
+    #map-ui a:hover {
+        background: rgb(120,110,100);
+    }
+
+    #map-ui li:first-child a {
+        border-radius: 3px 3px 0 0;
+        -webkit-border-radius: 3px 3px 0 0;
+    }
+
+    #map-ui li:last-child a {
+        border-bottom-width: 1px;
+        border-radius: 0 0 3px 3px;
+        -webkit-border-radius: 0 0 3px 3px;
+    }
+
+    #regionMarker {
+        position: absolute;
+        left: 23px;
+        top: 83px;
+    }
+
+    #officeMarker {
+        position: absolute;
+        left: 23px;
+        top: 114px;
+    }
+
+    #placeNameMarker {
+        position: absolute;
+        left: 23px;
+        top: 146px;
+    }
+
+    #trailMarker {
+        position: absolute;
+        left: 23px;
+        top: 178px;
+    }
+
+    #trailList {
+        background: #EEE;
+        border-style: none;
+        position: absolute;
+        right: 10px;
+        top: 75px;
+    }

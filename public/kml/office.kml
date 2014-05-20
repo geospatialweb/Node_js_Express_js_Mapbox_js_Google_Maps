@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>office.kml</name>
+    <Folder>
+      <name>FABR</name>
+      <Placemark>
+        <name>FABR Office</name>
+        <description>19 Reynolds Road, Lansdowne, ON &lt;br&gt;&lt;br&gt; Open Monday - Friday 8:30am - 4:30pm></description>
+        <styleUrl>#office_Style</styleUrl>
+        <Point>
+          <coordinates>-76.011422,44.384362</coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
