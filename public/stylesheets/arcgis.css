@@ -1,7 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300);
 
-body {
+body, html {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    height: 100%;
 }
 
     #mapContainer {
@@ -30,7 +32,7 @@ body {
         padding: 0;
         position: absolute;
         left: 10px;
-        top: 75px;
+        top: 95px;
     }
 
     #map-ui a {
@@ -63,25 +65,25 @@ body {
     #regionMarker {
         position: absolute;
         left: 22px;
-        top: 83px;
+        top: 103px;
     }
 
     #officeMarker {
         position: absolute;
         left: 22px;
-        top: 114px;
+        top: 134px;
     }
 
     #placeNameMarker {
         position: absolute;
         left: 22px;
-        top: 146px;
+        top: 166px;
     }
 
     #trailMarker {
         position: absolute;
         left: 22px;
-        top: 178px;
+        top: 198px;
     }
 
     #trailList {

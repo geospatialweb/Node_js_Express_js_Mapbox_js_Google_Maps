@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang='en'>
+    <head>
+        <meta charset='utf-8'>
+        <link rel='stylesheet' href='/stylesheets/arcgis.css' media='screen'>
+        <link rel='stylesheet' href='http://js.arcgis.com/3.9/js/esri/css/esri.css' media='screen'>
+        <script src='//code.jquery.com/jquery-1.11.0.min.js'></script>
+        <script>
+            $(document).ready(function() {
+                load_arcgis('mapContainer');
+
+                $('#regionLayer').click(function() {
+                    if (region.visible) region.hide();
+                    else region.show();
+                });
+
+                $('#officeLayer').click(function() {
+                    if (office.visible) office.hide();
+                    else office.show();
+                });
+
+                $('#placeNameLayer').click(function() {
+                   if (placeName.visible) placeName.hide();
+                   else placeName.show();
+                });
+
+                $('#trailLayer').click(function() {
+                   if (trail.visible) trail.hide();
+                   else trail.show();
+                });
+
+                $('#resetMap').click(function() {
+                    location.reload(true);
+                });
+            });
+        </script>
+    </head>
+    <body>
+      <div id="mapContainer"></div>
+      <div id='latlng'></div>
+         <ul id='map-ui'>
+             <li id='regionLayer'><a href='#'>Region</a></li>
+             <li id='officeLayer'><a href='#'>Office</a></li>
+             <li id='placeNameLayer'><a href='#'>Places</a></li>
+             <li id='trailLayer'><a href='#'>Trails</a></li>
+             <li id='resetMap'><a href='#'>Reset Map</a></li>
+             <li id='fullScreen'><a href='#' target='_blank'>Full Screen</a></li>
+         </ul>
+         <div id='regionMarker'>
+             <img src='/images/polygon.png' height='18' width='18'>
+         </div>
+         <div id='officeMarker'>
+             <img src='/images/office.png' height='20' width='18'>
+         </div>
+         <div id='placeNameMarker'>
+             <img src='/images/placename.png' height='20' width='18'>
+         </div>
+         <div id='trailMarker'>
+             <img src='/images/trail.png' height='20' width='18'>
+         </div>
+         <select id='trailList' onchange='displayTrail(trailList.selectedIndex)'>
+             <option>Select Trail</option>
+             <option>Blue Mountain</option>
+             <option>Charleston Lake</option>
+             <option>Lemoine Point Conservation</option>
+             <option>Lyn Valley Conservation</option>
+             <option>Mac Johnson Wildlife Area</option>
+             <option>Seeley's Bay Fitness Trails</option>
+         </select>
+    </body>
+    <script src='/javascripts/arcgis.js'></script>
+    <script src='http://js.arcgis.com/3.9/'></script>
+</html>

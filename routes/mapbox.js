@@ -1,7 +1,7 @@
 var express = require('express');
 var pg = require('pg.js');
 
-var connection = 'postgres://postgres:password@localhost/table';
+var connection = 'postgres://postgres:password@localhost/db';
 var select = 'select lat, lng from region';
 
 module.exports = express.Router().get('/', function(request, response) {

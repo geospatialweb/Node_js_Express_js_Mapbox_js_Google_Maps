@@ -17,11 +17,41 @@ function load_mapBox(div) {
 	});
 
 	L.control.layers({
-		'Black':   L.mapbox.tileLayer('examples.map-cnkhv76j').addTo(map),
-		'Streets': L.mapbox.tileLayer('examples.map-vyofok3q'),
-		'Terrain': L.mapbox.tileLayer('examples.map-9ijuk24y'),
-		'Warden':  L.mapbox.tileLayer('mapbox.mapbox-warden')
+        'Aerial':  L.mapbox.tileLayer('examples.map-qfyrx5r8'),
+	    'Black':   L.mapbox.tileLayer('examples.map-cnkhv76j').addTo(map),
+        'Streets': L.mapbox.tileLayer('examples.map-i87786ca'),
+	    'Terrain': L.mapbox.tileLayer('examples.map-i875mjb7'),
+	    'Warden':  L.mapbox.tileLayer('mapbox.mapbox-warden')
 	}).addTo(map);
+
+    // geocode origin & destination input, then pass respective coordinates to determine route, returned as geoJSON array
+    $.ajax({
+        type: 'GET',
+        data: { q: 'kingston ontario', locale: 'en', debug: 'true', key: '196v82Q2c6eJ9Td7GFa9upjn8bW4LgUf6Tby1sn6' },
+        url: 'http://graphhopper.com/api/1/geocode',
+        success: function(data) {
+            var orig = {'lat': data.hits[0].point.lat, 'lng': data.hits[0].point.lng};
+
+            $.ajax({
+                type: 'GET',
+                data: { q: 'brockville ontario', locale: 'en', debug: 'true', key: '196v82Q2c6eJ9Td7GFa9upjn8bW4LgUf6Tby1sn6' },
+                url: 'http://graphhopper.com/api/1/geocode',
+                success: function(data) {
+                    var dest = {'lat': data.hits[0].point.lat, 'lng': data.hits[0].point.lng};
+
+                    $.ajax({
+                        type: 'GET',
+                        url:'http://graphhopper.com/api/1/route?point=' + orig.lat + ',' + orig.lng + '&point=' + dest.lat + ',' + dest.lng + '&vehicle=car&locale=en&key=196v82Q2c6eJ9Td7GFa9upjn8bW4LgUf6Tby1sn6&points_encoded=false&debug=true',
+                        success: function(data) {
+                            L.marker([ orig.lat, orig.lng ]).addTo(map);
+                            L.marker([ dest.lat, dest.lng ]).addTo(map);
+                            L.geoJson(data.paths[0].points, {style: { 'color': 'purple', 'weight': 4 }}).addTo(map);
+                        }
+                    });
+                }
+            });
+        }
+    });
 
     $.get('/mapbox').done(function(data) {
         region = L.geoJson($.parseJSON(data), {

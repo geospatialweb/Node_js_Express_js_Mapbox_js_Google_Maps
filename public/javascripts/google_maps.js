@@ -29,15 +29,15 @@ function load_google(div) {
     });
 
 	office = new google.maps.KmlLayer({
-	  url: 'http://geospatialweb.ca/GoogleMaps/kml/office.kml'
+	  url: 'http://geospatialweb.ca:8000/GoogleMaps/kml/office.kml'
 	});
 
 	placeName = new google.maps.KmlLayer({
-	  url: 'http://geospatialweb.ca/GoogleMaps/kml/placenames.kml'
+	  url: 'http://geospatialweb.ca:8000/GoogleMaps/kml/placename.kml'
 	});
 
 	trail = new google.maps.KmlLayer({
-	  url: 'http://geospatialweb.ca/GoogleMaps/kml/trails.kml'
+	  url: 'http://geospatialweb.ca:8000/GoogleMaps/kml/trail.kml'
 	});
 
     trail.setMap(map);
